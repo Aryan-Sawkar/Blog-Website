@@ -1,0 +1,10 @@
+<%- include("header") -%>
+
+<% posts.forEach(function(post){ %>
+
+<h2> <%= post.title %> </h2>
+<p> <%= post.content %> </p>
+
+<% }) %>
+
+<%- include("footer") -%>
